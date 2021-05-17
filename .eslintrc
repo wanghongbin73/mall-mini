@@ -1,0 +1,18 @@
+{
+"extends": [
+  "google",
+  "taro/react"
+],
+"rules": {  
+  "react/jsx-uses-react": "off",
+  "react/react-in-jsx-scope": "off",
+  "require-jsdoc":[2,{"require": {
+    "FunctionDeclaration": true,
+    "MethodDefinition": false,
+    "ClassDeclaration": false,
+    "ArrowFunctionExpression": false,
+    "FunctionExpression": true
+}}]
+},
+"parser": "babel-eslint"
+}
