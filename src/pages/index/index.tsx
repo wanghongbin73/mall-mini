@@ -14,6 +14,10 @@ export default class Index extends Component {
   componentDidShow() {
     console.log('test');
     console.log('a');
+    console.log('b');
+    console.log('c');
+    debugger;
+    throw ('1');
   }
 
   componentDidHide() { }
